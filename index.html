@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beck Kanno / User Interface Designer</title>
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body class="font-archivo antialiased bg-black text-white scrollbar-thin scrollbar-thumb-none scrollbar-track-none">
+
+  <!-- Hero Section -->
+  <section class="!snap-proximity !snap-y max-h-screen">
+    
+    <nav class="px-2 sm:px-4 py-5 fixed w-full z-20 top-0 left-0 border-gray-600 bg-opacity-30 backdrop-filter backdrop-saturate-150 backdrop-blur-lg">
+      <div class="container flex flex-wrap justify-between items-center mx-auto">
+      <a href="index.html/" class="flex items-center">
+        <img src="https://raw.githubusercontent.com/altBeck/temp-img/main/logo.svg" class="mr-3 h-6 sm:h-9" alt="Beck Logo">
+        <span class="self-center sm:text-xl sm:font-semibold whitespace-nowrap text-white">Beck Kanno / User Interface Designer</span>
+      </a>
+     
+      <div class="flex md:order-1">
+          
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex p-2 text-sm text-gray-500 rounded-lg md:hidden dark:text-gray-400 border-2 "aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-6 h-6" aria-hidden="true" fill="#fff" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+        </button>
+      </div>
+      
+      <div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+        <ul class="flex flex-col p-4 mt-4 rounded-lg  border-blue-600 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 bg-sea md:bg-transparent">
+          
+          <li>
+            <a href="#" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-blue-700 md:p-0 hover:text-white md:text-gray-400 md:hover:bg-transparent">About</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-blue-700 md:p-0 hover:text-white md:text-gray-400 md:hover:bg-transparent">Services</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-blue-700 md:p-0 hover:text-white md:text-gray-400 md:hover:bg-transparent">Contact</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+
+    <h1 class="content py-5 sm:py-12 my-28 sm:my-10 text-center select-none text-6xl sm:text-8xl leading-none tracking-tightest font-extrabold"><span data-content="Code." class="stagger relative block before:content-[attr(data-content)] dark:before:content-[attr(data-content)] before:w-full before:block before:absolute before:top-0 before:bottom-0 before:left-0 before:px-2 before:text-center before:text-black dark:before:text-white before:animate-gradient-background-1"><span class="px-2 text-transparent bg-clip-text bg-gradient-to-br from-gradient-1-start to-gradient-1-end animate-gradient-foreground-1">Code.</span></span>
+      <span data-content="Design." class="stagger relative block before:content-[attr(data-content)] dark:before:content-[attr(data-content)] before:w-full before:block before:absolute before:top-0 before:bottom-0 before:left-0 before:px-2 before:text-center before:text-black dark:before:text-white before:animate-gradient-background-2"><span class="px-2 text-transparent bg-clip-text bg-gradient-to-br from-gradient-2-start to-gradient-2-end animate-gradient-foreground-2">Design.</span></span>
+      <span data-content="Portfolio." class="stagger relative block before:content-[attr(data-content)] dark:before:content-[attr(data-content)] before:w-full before:block before:absolute before:top-0 before:bottom-0 before:left-0 before:px-2 before:text-center before:text-black dark:before:text-white before:animate-gradient-background-3"><span class="px-2 text-transparent bg-clip-text bg-gradient-to-br from-gradient-3-start to-gradient-3-end animate-gradient-foreground-3">Portfolio.</span></span>
+    </h1>
+
+    <div class="content grid place-items-center">
+      <p class="stagger md:text-xl -mt-32 md:-mt-16 w-64 md:w-80 text-center align-middle">
+        I’m a <button><a href="https://bradfrost.com/blog/post/frontend-design/" class="p-1 rounded bg-blue-700 hover:hover:bg-gradient-to-t from-blue-900 to-blue-700" target="_blank">frontend-designer</a></button> crafting people-centric visual experiences for startups & businesses.
+      </p>
+      <ul class="stagger mt-16 flex space-x-4">
+        <button class="p-3 bg-sea font-medium hover:bg-gradient-to-t from-gray-950 to-sea rounded-md shadow-highlight" style="opacity: 1; transform: none;"><span class="transition filter hover:drop-shadow-glow">Resume</span></button>
+        <button class="text-black p-3 font-medium bg-green-600 hover:bg-gradient-to-t from-green-400 to-green-700 rounded-md shadow-highlight" style="opacity: 1; transform: none;"><span class="transition filter hover:drop-shadow-glow">Contact Me</span></button>
+      </ul> 
+    </div>
+
+    
+  </section>
+
+  <!-- Featured Projects -->
+  <section class="snap-y snap-proximity max-h-screen">
+    <div class="max-w-xl mx-auto">
+      <div style="opacity: 1; transform: translateY(240px) translateZ(0px);">
+
+
+        <!-- grid 1 -->
+
+        <div class="anim2 grid max-w-2xl gap-5 p-5 pl-8 mx-auto mb-6 md:mb-16 md:p-0 md:grid-cols-1fr-5fr">
+          <div class="relative pl-6 border-gray-800 md:pl-16">
+            <p class="text-sm md:text-base text-gray-500">Currently</p>
+            <p class="anim2 mt-5 !mb-6 text-sm md:text-base">Iterating on this website and some freelance projects. Feel free to contact me if you'd like to build something cool together!</p>
+            <div class="absolute top-0 left-0 w-3 h-3 ">
+              <div class="w-full h-full -translate-x-1/2 translate-y-1/3">
+                <span class="absolute w-full h-full bg-green-400 rounded-full opacity-75 animate-ping"></span>
+                <span class="absolute w-full h-full bg-green-400 rounded-full"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- grid 2 -->
+
+        <div class="anim2 grid max-w-2xl gap-5 p-5 pl-8 mx-auto mb-6 md:mb-16 md:p-0 md:grid-cols-1fr-5fr">
+          <div class="relative pl-6 border-gray-800 md:pl-16">
+            <p class="text-sm md:text-base text-gray-500">Featured on a project</p>
+            <div>
+              <div class="absolute top-0 left-0 w-3 h-3 border-2 border-gray-200 rounded-full md:translate-y-1/2 md:ring-8 ring-sea" style="background:#0f0e12;transform:translate(calc(-50% - 0.5px), var(--tw-translate-y))">
+                <div class="absolute h-140 mt-3 border-l ml-0.75 md:mt-4.5 border border-gray-950"></div>
+              </div>
+            </div>
+            <div class="p-4 mt-5 space-y-5 text-sm text-gray-400 bg-sea bg-opacity-50 rounded-lg shadow-highlight md:p-5">
+              
+              <p class="mt-5 !mb-6 text-sm md:text-base">Iterating on this website and some freelance projects. Feel free to contact me if you'd like to build something cool together!</p>
+              <img src="https://raw.githubusercontent.com/altBeck/temp-img/main/beck-4k.png" alt="" style="border-radius: 8px; margin-bottom: 20px;">
+            </div>
+          </div>
+        </div>
+        
+
+        <!-- grid 3 -->
+
+        <div class="anim2 grid max-w-2xl gap-5 p-5 pl-8 mx-auto mb-6 md:mb-16 md:p-0 md:grid-cols-1fr-5fr">
+          <div class="relative pl-6 border-gray-800 md:pl-16">
+            <p class="text-sm md:text-base text-gray-500">Featured on a project</p>
+            <div>
+              <div class="absolute top-0 left-0 w-3 h-3 border-2 border-gray-200 rounded-full md:translate-y-1/2 md:ring-8 ring-sea" style="background:#0f0e12;transform:translate(calc(-50% - 0.5px), var(--tw-translate-y))">
+                <div class="absolute md:h-124 mt-3 h-97 border-l ml-0.75 md:mt-4.5 border border-gray-950"></div>
+              </div>
+            </div>
+
+            <div class="p-4 mt-5 space-y-5 text-sm text-gray-400 bg-sea bg-opacity-50 rounded-lg shadow-highlight md:p-5 ">
+              
+              <p class="mt-5 !mb-6 text-sm md:text-base">Iterating on this website and some freelance projects. Feel free to contact me if you'd like to build something cool together!</p>
+              <img src="https://github.com/altBeck/temp-img/raw/main/Hoo-Bank.svg" alt="" style="border-radius: 5px; margin-bottom: 20px;">
+              
+            </div>
+          </div>
+        </div>
+
+        <!-- grid 4 -->
+
+        <div class="anim2 grid max-w-2xl gap-5 p-5 pl-8 mx-auto mb-6 md:mb-16 md:p-0 md:grid-cols-1fr-5fr">
+          <div class="relative pl-6 border-gray-800 md:pl-16">
+            <p class="text-sm md:text-base text-gray-500">Featured on a project</p>
+            <div>
+              <div class="absolute top-0 left-0 w-3 h-3 border-2 border-gray-200 rounded-full md:translate-y-1/2 md:ring-8 ring-sea" style="background:#0f0e12;transform:translate(calc(-50% - 0.5px), var(--tw-translate-y))">
+                <div class="absolute md:h-124 mt-3 h-97 border-l ml-0.75 md:mt-4.5 border border-gray-950"></div>
+              </div>
+            </div>
+            <div class="p-4 mt-5 space-y-5 text-sm text-gray-400 bg-sea bg-opacity-50 rounded-lg shadow-highlight md:p-5 ">
+              
+              <p class="mt-5 !mb-6 text-sm md:text-base">Iterating on this website and some freelance projects. Feel free to contact me if you'd like to build something cool together!</p>
+              <img src="https://raw.githubusercontent.com/altBeck/temp-img/main/beck-4k.png" alt="" style="border-radius: 8px; margin-bottom: 20px;">
+            </div>
+          </div>
+        </div>
+
+        <!-- grid in progress -->
+        <div class="grid max-w-2xl gap-5 p-5 pl-8 mx-auto mb-6 md:mb-16 md:p-0 md:grid-cols-1fr-5fr">
+          <div class="relative pl-6 border-gray-800 md:pl-16">
+            <p class="text-sm md:text-base text-gray-500">Featured on a project</p>
+            <div>
+              <div class="absolute top-0 left-0 w-3 h-3 border-2 border-gray-200 rounded-full md:translate-y-1/2 md:ring-8 ring-sea" style="background:#0f0e12;transform:translate(calc(-50% - 0.5px), var(--tw-translate-y))">
+                <div class="absolute md:h-124 mt-3 h-97 border-l ml-0.75 md:mt-4.5 border border-gray-950"></div>
+              </div>
+            </div>
+            <div class="p-4 mt-5 space-y-5 text-sm text-gray-400 bg-sea bg-opacity-50 rounded-lg shadow-highlight md:p-5 ">
+              
+              <p class="mt-5 !mb-6 text-sm md:text-base">Iterating on this website and some freelance projects. Feel free to contact me if you'd like to build something cool together!</p>
+              <img src="https://raw.githubusercontent.com/altBeck/temp-img/main/beck-4k.png" alt="" style="border-radius: 8px; margin-bottom: 20px;">
+            </div>
+          </div>
+        </div>
+
+        <!--end-->
+        <div class="grid max-w-2xl gap-5 p-5 pl-8 mx-auto mb-6 md:mb-16 md:p-0 md:grid-cols-1fr-5fr">
+          <div class="relative pl-6 border-gray-800 md:pl-16">
+            <p class="text-sm md:text-base text-gray-500">Featured on a project</p>
+            <div>
+              <div class="absolute top-0 left-0 w-3 h-3 border-2 border-gray-200 rounded-full md:translate-y-1/2 md:ring-8 ring-sea" style="background:#0f0e12;transform:translate(calc(-50% - 0.5px), var(--tw-translate-y))">  
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!--testing original-->
+        <div class="grid max-w-2xl gap-16 pl-8 pr-5 mx-auto transition-opacity md:p-0 md:grid-cols-1fr-5fr" style="opacity: 1;">
+          <div class="hidden md:block">
+            <p class="font-mono text-xs leading-6 text-right text-gray-500 ">Jan 15, 2022</p>
+          </div>
+          <div class="relative pb-12 pl-6 md:pl-16 border-l border-gray-800">
+            <p class="mb-0.5 font-mono text-xs leading-6 text-gray-500 -translate-y-1/4 md:hidden">Jan 15, 2022</p>
+            <div class="prose-sm prose-dark md:prose-dark">Featured on <a href="https://godly.website/" target="_blank" rel="noreferrer">godly.website</a>.
+            </div>
+            <div class="absolute top-0 left-0 w-3 h-3 border-2 border-gray-200 rounded-full md:translate-y-1/2 md:ring-8 ring-gray-900" style="background:#0f0e12;transform:translate(calc(-50% - 0.5px), var(--tw-translate-y))">
+            </div>
+            <div class="p-4 mt-5 space-y-5 text-sm text-gray-400 bg-gray-900 bg-opacity-50 rounded-lg shadow-highlight md:p-5">
+              <div class="flex items-center justify-between pr-2.5">
+                <div class="flex items-center space-x-3">
+                  <a href="https://twitter.com/verse_" target="_blank" rel="noreferrer">
+                    <div class="w-10 h-10 bg-center bg-cover border border-gray-700 rounded-full md:w-11 md:h-11" style="background-image:url(&quot;https://pbs.twimg.com/profile_images/1565045556703027205/R3qnd2w8_normal.jpg&quot;)">
+                    </div>
+                  </a>
+                  <div>
+                    <p class="font-semibold"><a href="https://twitter.com/verse_" target="_blank" rel="noreferrer">AB</a>
+                    </p>
+                    <p class="text-xs opacity-75"><a href="https://twitter.com/verse_" target="_blank" rel="noreferrer">@<!-- -->verse_</a>
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <a href="https://twitter.com/verse_/status/1482130879648567298" target="_blank" rel="noreferrer">
+                    <svg aria-hidden="true" data-prefix="fab" data-icon="twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-5 transition md:w-6 opacity-60 justify-self-end hover:opacity-90"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div><p class="whitespace-pre-wrap">we made it to @godlywebsite!!! :D </p>
+              <div class="grid grid-flow-col gap-2"><img class="rounded-md" src="https://pbs.twimg.com/media/FJGVzPnXIA0tRT5.jpg">
+              </div>
+              <div class="flex items-center justify-between text-xs">
+                <div class="flex items-center space-x-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="h-4 md:h-5"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path>
+                  </svg>
+                  <div>12</div>
+                </div>
+                <span class="opacity-60"><a href="https://twitter.com/verse_/status/1482130879648567298" target="_blank" rel="noreferrer">3:21 PM · Jan 14, 2022</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  </section>
+
+  <!-- Footer -->
+ 
+
+
+
+  <!-- JS Scripts -->
+
+  <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js" integrity="sha512-v8B8T8l8JiiJRGomPd2k+bPS98RWBLGChFMJbK1hmHiDHYq0EjdQl20LyWeIs+MGRLTWBycJGEGAjKkEtd7w5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    gsap.registerPlugin(ScrollTrigger);
+    var tl = gsap.timeline();
+
+    tl.fromTo(".content", {opacity: 0, y: -50, ease: Power4.easeOut, duration: 1}, {opacity: 1, y: 0, ease: Power4.easeOut, duration: 0.5});
+
+    tl.from('.stagger', {
+      opacity: 0,
+      y: -30,
+      stagger: .5,
+      ease: Power4.easeOut,
+      duration: 1.5
+    }, "-=1.5")
+
+
+    gsap.from(".anim2", {
+      ScrollTrigger: {
+        trigger: "anim2",
+        start: "top center"
+      },
+      y: 30,
+      opacity: 0,
+      duration: 1,
+      stagger: .4,
+    })
+  </script>
+</body>
+</html>

@@ -2,42 +2,268 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Beck Kanno / User Interface Designer</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="css/styles.css" rel="stylesheet">
 </head>
-<body>
-  <section class="snap-y snap-proximity min-h-screen">
-    <div class="max-w-xl mx-auto">
-      <div>
-        <div class="grid max-w-2xl gap-5 p-5 pl-8 mx-auto mb-6 md:mb-16 md:p-0 md:grid-cols-1fr-5fr">
+<body class="font-archivo antialiased bg-black text-white scrollbar-thin scrollbar-thumb-none scrollbar-track-none">
 
-          <ul class="md:mt-6 flex space-x-4">
-            <li class="m-0 p-0 rounded-md bg-dbbb hover:shadow-2xl hover:shadow-dbbb">
-              <a aria-label="Dribbble icon" href="https://dribbble.com/bekkr" target="_blank"><svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9608 13.0038C20.1784 14.5322 21.2698 16.1658 22.2191 17.8889C23.9359 17.2475 25.5529 16.4016 27.0406 15.3808C25.5335 13.7614 23.385 12.75 21 12.75C20.2956 12.75 19.6125 12.8381 18.9608 13.0038ZM27.9603 16.5687C26.4038 17.645 24.7133 18.5414 22.9191 19.2278C23.2046 19.8042 23.4745 20.3896 23.7284 20.9836C24.3901 20.886 25.0672 20.8354 25.7561 20.8354C26.9608 20.8354 28.1303 20.9902 29.2453 21.2813C29.2484 21.188 29.25 21.0942 29.25 21C29.25 19.3683 28.777 17.8486 27.9603 16.5687ZM29.0567 22.784C28.0072 22.4918 26.9005 22.3354 25.7561 22.3354C25.265 22.3354 24.7806 22.3642 24.3046 22.4203C24.9424 24.1202 25.4508 25.8834 25.8176 27.6981C27.4357 26.5321 28.6135 24.795 29.0567 22.784ZM24.445 28.4987C24.0722 26.4943 23.5192 24.5532 22.8035 22.6928C19.9486 23.3976 17.487 25.1016 15.8109 27.4141C17.2286 28.5627 19.0334 29.25 21 29.25C22.2309 29.25 23.3973 28.9809 24.445 28.4987ZM14.7262 26.3577C16.5588 23.9121 19.1869 22.0952 22.2272 21.2916C21.9947 20.7614 21.7488 20.2384 21.4899 19.723C19.2431 20.4221 16.8543 20.7988 14.378 20.7988C13.8323 20.7988 13.2907 20.7805 12.7539 20.7445C12.7513 20.8293 12.75 20.9145 12.75 21C12.75 23.0452 13.4934 24.9158 14.7262 26.3577ZM12.9352 19.2531C13.4121 19.2834 13.8933 19.2988 14.378 19.2988C16.6001 19.2988 18.7462 18.9755 20.7722 18.3735C19.8119 16.6639 18.7045 15.0478 17.4671 13.5424C15.1853 14.6253 13.4802 16.7247 12.9352 19.2531ZM17.4063 11.9339C18.5193 11.4923 19.7323 11.25 21 11.25C24.1506 11.25 26.9523 12.7452 28.7335 15.0617C29.9979 16.706 30.75 18.7662 30.75 21C30.75 21.4635 30.7176 21.9198 30.6549 22.3668C30.2164 25.49 28.3001 28.1359 25.6384 29.5779C24.2583 30.3257 22.6776 30.75 21 30.75C18.4059 30.75 16.047 29.7359 14.3008 28.084C12.423 26.3077 11.25 23.7902 11.25 21C11.25 20.61 11.2729 20.2251 11.3176 19.8466C11.7437 16.2337 14.1431 13.2284 17.4063 11.9339Z" fill="white"></path></svg>
-              </a>
-            </li>
-            <li class="m-0 p-0 rounded-md bg-lkn hover:shadow-2xl hover:shadow-lkn">
-              <a aria-label="linkedin icon" href="https://linkedin.com/in/kanno-beck" target="_blank"><svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M13.75 10.875C12.5764 10.875 11.625 11.8264 11.625 13C11.625 14.1736 12.5764 15.125 13.75 15.125C14.9236 15.125 15.875 14.1736 15.875 13C15.875 11.8264 14.9236 10.875 13.75 10.875Z" fill="white"></path>
-                <path d="M11.75 16.875C11.681 16.875 11.625 16.931 11.625 17V30C11.625 30.069 11.681 30.125 11.75 30.125H15.75C15.819 30.125 15.875 30.069 15.875 30V17C15.875 16.931 15.819 16.875 15.75 16.875H11.75Z" fill="white"></path>
-                <path d="M18.25 16.875C18.181 16.875 18.125 16.931 18.125 17V30C18.125 30.069 18.181 30.125 18.25 30.125H22.25C22.319 30.125 22.375 30.069 22.375 30V23C22.375 22.5027 22.5725 22.0258 22.9242 21.6742C23.2758 21.3225 23.7527 21.125 24.25 21.125C24.7473 21.125 25.2242 21.3225 25.5758 21.6742C25.9275 22.0258 26.125 22.5027 26.125 23V30C26.125 30.069 26.181 30.125 26.25 30.125H30.25C30.319 30.125 30.375 30.069 30.375 30V21.3802C30.375 18.9535 28.2644 17.055 25.8498 17.2745C25.1052 17.3422 24.369 17.5273 23.6815 17.8219L22.375 18.3819V17C22.375 16.931 22.319 16.875 22.25 16.875H18.25Z" fill="white"></path>
-                </svg>
-                </a>
-            </li>
-            <li class="m-0 p-0 rounded-md bg-twttr hover:shadow-2xl hover:shadow-twttr">
-              <a aria-label="Twitter icon" href="https://twitter.com/designrgodd" target="_blank">
-                <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M30.8098 15.2272C30.8677 15.1465 30.7821 15.0422 30.6894 15.0781C30.0307 15.3334 29.3423 15.5057 28.64 15.5906C29.4219 15.1235 30.0253 14.4124 30.3599 13.5705C30.394 13.4848 30.3003 13.4082 30.2195 13.4528C29.4928 13.8541 28.7091 14.1431 27.8949 14.3096C27.8608 14.3165 27.8257 14.3049 27.8018 14.2797C27.1908 13.635 26.3866 13.2058 25.5098 13.0575C24.6147 12.906 23.6946 13.056 22.8938 13.4838C22.0931 13.9116 21.457 14.5931 21.0853 15.4214C20.7319 16.209 20.6365 17.0869 20.8108 17.93C20.8243 17.9955 20.7731 18.0572 20.7065 18.0531C19.1224 17.9547 17.5747 17.5334 16.1587 16.8145C14.7463 16.0974 13.4955 15.0998 12.4827 13.8833C12.4377 13.8293 12.3525 13.8363 12.3198 13.8984C12.0046 14.4965 11.8396 15.1631 11.84 15.8406C11.8387 16.515 12.0042 17.1792 12.3218 17.7742C12.6393 18.3691 13.099 18.8763 13.66 19.2506C13.0651 19.2344 12.4818 19.0873 11.9513 18.8207C11.8829 18.7863 11.8009 18.8352 11.8045 18.9117C11.8458 19.8009 12.1723 20.6936 12.7373 21.3786C13.3387 22.1074 14.1733 22.6062 15.1 22.7906C14.7433 22.8992 14.3729 22.9564 14 22.9606C13.7971 22.9582 13.5945 22.9433 13.3936 22.9158C13.319 22.9056 13.2582 22.9764 13.2843 23.0469C13.5607 23.7944 14.049 24.4467 14.6911 24.9228C15.3776 25.4318 16.2056 25.7142 17.06 25.7306C15.6172 26.8659 13.8359 27.4855 12 27.4906C11.8114 27.4912 11.6228 27.4851 11.4347 27.4723C11.3287 27.4651 11.2799 27.6063 11.3713 27.6605C13.1601 28.7221 15.2046 29.2831 17.29 29.2806C18.8297 29.2966 20.3572 29.0056 21.7831 28.4247C23.2091 27.8437 24.5051 26.9845 25.5952 25.8971C26.6854 24.8097 27.548 23.516 28.1326 22.0915C28.7172 20.667 29.0121 19.1403 29 17.6006V17.1208C29 17.0892 29.015 17.0595 29.0402 17.0405C29.7184 16.5283 30.3149 15.9169 30.8098 15.2272Z" fill="white"></path>
-                </svg>
-              </a>
-            </li>
-          </ul>
+  <!-- Hero Section -->
+  <nav class="px-2 sm:px-4 py-5 fixed w-full z-20 top-0 left-0 border-gray-600 bg-opacity-30 backdrop-filter backdrop-saturate-150 backdrop-blur-lg">
+    <div class="container flex flex-wrap justify-between items-center mx-auto">
+    <a href="index.html/" class="flex items-center">
+      <img src="https://raw.githubusercontent.com/altBeck/temp-img/main/logo.svg" class="mr-3 h-6 sm:h-9" alt="Beck Logo">
+      <span class="self-center sm:text-xl sm:font-semibold whitespace-nowrap text-white">Beck Kanno / User Interface Designer</span>
+    </a>
+   
+    <div class="flex md:order-1">
         
+      <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex p-2 text-sm text-gray-500 rounded-lg md:hidden dark:text-gray-400 border-2 "aria-controls="navbar-sticky" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="#fff" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+      </button>
+    </div>
+    
+    <div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+      <ul class="flex flex-col p-4 mt-4 rounded-lg  border-blue-600 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 bg-sea md:bg-transparent">
+        
+        <li>
+          <a href="#" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-blue-700 md:p-0 hover:text-white md:text-gray-400 md:hover:bg-transparent">About</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-blue-700 md:p-0 hover:text-white md:text-gray-400 md:hover:bg-transparent">Playground</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-blue-700 md:p-0 hover:text-white md:text-gray-400 md:hover:bg-transparent">Contact</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  
+  <div class="smooth-scroll">
+
+
+    <section>
+      
+      <h1 class="content py-5 sm:py-12 my-28 sm:my-10 text-center select-none text-6xl sm:text-8xl leading-none tracking-tightest font-extrabold"><span data-content="Code." class="relative block before:content-[attr(data-content)] dark:before:content-[attr(data-content)] before:w-full before:block before:absolute before:top-0 before:bottom-0 before:left-0 before:px-2 before:text-center before:text-black dark:before:text-white before:animate-gradient-background-1"><span class="px-2 text-transparent bg-clip-text bg-gradient-to-br from-gradient-1-start to-gradient-1-end animate-gradient-foreground-1">Code.</span></span>
+        <span data-content="Design." class="relative block before:content-[attr(data-content)] dark:before:content-[attr(data-content)] before:w-full before:block before:absolute before:top-0 before:bottom-0 before:left-0 before:px-2 before:text-center before:text-black dark:before:text-white before:animate-gradient-background-2"><span class="px-2 text-transparent bg-clip-text bg-gradient-to-br from-gradient-2-start to-gradient-2-end animate-gradient-foreground-2">Design.</span></span>
+        <span data-content="Portfolio." class="relative block before:content-[attr(data-content)] dark:before:content-[attr(data-content)] before:w-full before:block before:absolute before:top-0 before:bottom-0 before:left-0 before:px-2 before:text-center before:text-black dark:before:text-white before:animate-gradient-background-3"><span class="px-2 text-transparent bg-clip-text bg-gradient-to-br from-gradient-3-start to-gradient-3-end animate-gradient-foreground-3">Portfolio.</span></span>
+      </h1>
+  
+      <div class="grid place-items-center">
+        <p class="md:text-xl -mt-32 md:-mt-16 w-64 md:w-80 text-center align-middle">
+          I’m a <button><a href="https://bradfrost.com/blog/post/frontend-design/" class="p-1 rounded bg-blue-700 hover:hover:bg-gradient-to-t from-blue-900 to-blue-700" target="_blank">frontend-designer</a></button> crafting people-centric visual experiences for startups & businesses.
+        </p>
+        <ul class="stagger mt-16 flex space-x-4">
+          <button class="p-3 bg-sea font-medium hover:bg-gradient-to-t from-gray-950 to-sea rounded-md shadow-highlight" style="opacity: 1; transform: none;"><span class="transition filter hover:drop-shadow-glow">Resume</span></button>
+          <button class="text-black p-3 font-medium bg-green-600 hover:bg-gradient-to-t from-green-400 to-green-700 rounded-md shadow-highlight" style="opacity: 1; transform: none;"><span class="transition filter hover:drop-shadow-glow">Contact Me</span></button>
+        </ul> 
+      </div>
+  
+      
+    </section>
+  
+    <!-- Featured Projects -->
+    <section>
+      <div class="max-w-xl mx-auto">
+        <div style="opacity: 1; transform: translateY(240px) translateZ(0px);">
+  
+  
+          <!-- grid 1 -->
+  
+          <div class="grid max-w-2xl gap-5 p-5 pl-8 mx-auto mb-6 md:mb-16 md:p-0 md:grid-cols-1fr-5fr">
+            <div class="relative pl-6 border-gray-800 md:pl-16">
+              <p class="text-sm md:text-base text-gray-500">Currently</p>
+              <p class="mt-5 !mb-6 text-sm md:text-base">Iterating on this website and some freelance projects. Feel free to contact me if you'd like to build something cool together!</p>
+              <div class="absolute top-0 left-0 w-3 h-3 ">
+                <div class="w-full h-full -translate-x-1/2 translate-y-1/3">
+                  <span class="absolute w-full h-full bg-green-400 rounded-full opacity-75 animate-ping"></span>
+                  <span class="absolute w-full h-full bg-green-400 rounded-full"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+  
+          <!-- grid 2 -->
+  
+          <div class="grid max-w-2xl gap-5 p-5 pl-8 mx-auto mb-6 md:mb-16 md:p-0 md:grid-cols-1fr-5fr">
+            <div class="relative pl-6 border-gray-800 md:pl-16">
+              <p class="text-sm md:text-base text-gray-500">Featured on a project</p>
+              <div>
+                <div class="absolute top-0 left-0 w-3 h-3 border-2 border-gray-200 rounded-full md:translate-y-1/2 md:ring-8 ring-sea" style="background:#0f0e12;transform:translate(calc(-50% - 0.5px), var(--tw-translate-y))">
+                  <div class="absolute h-140 mt-3 border-l ml-0.75 md:mt-4.5 border border-gray-950"></div>
+                </div>
+              </div>
+              <div class="p-4 mt-5 space-y-5 text-sm text-gray-400 bg-sea bg-opacity-50 rounded-lg shadow-highlight md:p-5">
+
+                <h1 class="text-white text-lg">Restaurant Admin Dashboard</h1>
+                
+                <p class="mt-5 !mb-6 text-sm md:text-base">Iterating on this website and some freelance projects. Feel free to contact me if you'd like to build something cool together!</p>
+                <img src="https://raw.githubusercontent.com/altBeck/temp-img/main/Food-Court.avif" alt="" loading="lazy" style="border-radius: 8px; margin-bottom: 20px; width: 100%; height: auto">
+              </div>
+            </div>
+          </div>
+          
+  
+          <!-- grid 3 -->
+  
+          <div class="grid max-w-2xl gap-5 p-5 pl-8 mx-auto mb-6 md:mb-16 md:p-0 md:grid-cols-1fr-5fr">
+            <div class="relative pl-6 border-gray-800 md:pl-16">
+              <p class="text-sm md:text-base text-gray-500">Featured on a project</p>
+              <div>
+                <div class="absolute top-0 left-0 w-3 h-3 border-2 border-gray-200 rounded-full md:translate-y-1/2 md:ring-8 ring-sea" style="background:#0f0e12;transform:translate(calc(-50% - 0.5px), var(--tw-translate-y))">
+                  <div class="absolute md:h-124 mt-3 h-97 border-l ml-0.75 md:mt-4.5 border border-gray-950"></div>
+                </div>
+              </div>
+  
+              <div class="p-4 mt-5 space-y-5 text-sm text-gray-400 bg-sea bg-opacity-50 rounded-lg shadow-highlight md:p-5 ">
+                
+                <h1 class="text-white text-lg">Hoobank Landing Page</h1>
+
+                <p class="mt-5 !mb-6 text-sm md:text-base">Iterating on this website and some freelance projects. Feel free to contact me if you'd like to build something cool together!</p>
+
+                <div class="space-x-2 flex">
+
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_218_20)">
+                    <path fill-rule="evenodd" clip-rule="evenodd"  d="M11.964 0C8.79107 0.000397735 5.74821 1.26101 3.50461 3.50461C1.26101 5.74821 0.000397735 8.79107 0 11.964C0 17.247 3.45 21.7245 8.1465 23.34C8.7345 23.4135 8.9535 23.046 8.9535 22.752V20.697C5.652 21.432 4.9185 19.083 4.9185 19.083C4.404 17.688 3.597 17.3205 3.597 17.3205C2.496 16.587 3.669 16.587 3.669 16.587C4.8435 16.6605 5.505 17.835 5.505 17.835C6.606 19.6695 8.2935 19.155 8.955 18.8625C9.027 18.0555 9.3945 17.5425 9.6885 17.2485C7.0455 16.9545 4.257 15.927 4.257 11.3025C4.257 9.9825 4.6965 8.9535 5.505 8.073C5.43 7.8525 4.9905 6.606 5.652 4.9905C5.652 4.9905 6.6795 4.6965 8.9535 6.2385C9.9075 5.9445 10.9365 5.871 11.964 5.871C12.9915 5.871 14.019 6.018 14.973 6.2385C17.2485 4.698 18.276 4.9905 18.276 4.9905C18.936 6.606 18.495 7.8525 18.4215 8.1465C19.2298 9.02712 19.6756 10.1806 19.6695 11.376C19.6695 16.0005 16.8795 16.9545 14.2395 17.2485C14.679 17.6145 15.0465 18.348 15.0465 19.449V22.752C15.0465 23.046 15.2655 23.412 15.8535 23.34C18.2325 22.5371 20.299 21.0068 21.7609 18.9654C23.2228 16.9241 24.006 14.4748 24 11.964C23.9265 5.358 18.57 0 11.964 0Z" fill="#F8F8F8"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_218_20">
+                    <rect width="24" height="24" fill="white"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                    
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6 hover:stroke-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </div>
+
+                
+
+                <img src="https://raw.githubusercontent.com/altBeck/temp-img/main/Hoo-Bank-_2_.avif" alt="" loading="lazy" style="border-radius: 8px; margin-bottom: 20px; width: 100%; height: auto">
+                
+              </div>
+            </div>
+          </div>
+  
+          <!-- grid 4 -->
+  
+          <div class="grid max-w-2xl gap-5 p-5 pl-8 mx-auto mb-6 md:mb-16 md:p-0 md:grid-cols-1fr-5fr">
+            <div class="relative pl-6 border-gray-800 md:pl-16">
+              <p class="text-sm md:text-base text-gray-500">Featured on a project</p>
+              <div>
+                <div class="absolute top-0 left-0 w-3 h-3 border-2 border-gray-200 rounded-full md:translate-y-1/2 md:ring-8 ring-sea" style="background:#0f0e12;transform:translate(calc(-50% - 0.5px), var(--tw-translate-y))">
+                  <div class="absolute md:h-124 mt-3 h-97 border-l ml-0.75 md:mt-4.5 border border-gray-950"></div>
+                </div>
+              </div>
+              <div class="p-4 mt-5 space-y-5 text-sm text-gray-400 bg-sea bg-opacity-50 rounded-lg shadow-highlight md:p-5 ">
+                
+                <p class="mt-5 !mb-6 text-sm md:text-base">Iterating on this website and some freelance projects. Feel free to contact me if you'd like to build something cool together!</p>
+                <img src="https://raw.githubusercontent.com/altBeck/temp-img/main/beck-4k.avif" alt="" loading="lazy" style="border-radius: 8px; margin-bottom: 20px; width: 100%; height: auto">
+              </div>
+            </div>
+          </div>
+  
+          <!-- grid in progress -->
+          <div class="grid max-w-2xl gap-5 p-5 pl-8 mx-auto mb-6 md:mb-16 md:p-0 md:grid-cols-1fr-5fr">
+            <div class="relative pl-6 border-gray-800 md:pl-16">
+              <p class="text-sm md:text-base text-gray-500">Featured on a project</p>
+              <div>
+                <div class="absolute top-0 left-0 w-3 h-3 border-2 border-gray-200 rounded-full md:translate-y-1/2 md:ring-8 ring-sea" style="background:#0f0e12;transform:translate(calc(-50% - 0.5px), var(--tw-translate-y))">
+                  <div class="absolute md:h-100 mt-3 h-97 border-l ml-0.75 md:mt-4.5 border border-gray-950"></div>
+                </div>
+              </div>
+              <div class="p-4 mt-5 space-y-5 text-sm text-gray-400 bg-sea bg-opacity-50 rounded-lg shadow-highlight md:p-5 ">
+                
+                <p class="mt-5 !mb-6 text-sm md:text-base">Iterating on this website and some freelance projects. Feel free to contact me if you'd like to build something cool together!</p>
+                <img src="https://raw.githubusercontent.com/altBeck/temp-img/main/beck-4k.avif" alt="" loading="lazy" style="border-radius: 8px; margin-bottom: 20px; width: 100%; height: auto">
+              </div>
+            </div>
+          </div>
+  
+          <!--end-->
+          <div class="grid max-w-2xl gap-5 p-5 pl-8 mx-auto mb-6 md:mb-16 md:p-0 md:grid-cols-1fr-5fr">
+            <div class="relative pl-6 border-gray-800 md:pl-16">
+              <p class="text-sm md:text-base text-gray-500">End of Project</p>
+              <div>
+                <div class="absolute top-0 left-0 w-3 h-3 border-2 border-gray-200 rounded-full md:translate-y-1/2 md:ring-8 ring-sea" style="background:#0f0e12;transform:translate(calc(-50% - 0.5px), var(--tw-translate-y))">  
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="grid max-w-2xl gap-5 p-5 pl-8 mx-auto mb-6 md:mb-16 md:p-0 md:grid-cols-1fr-5fr">
+            <div class="p-5 bg-sea bg-opacity-50 rounded-lg shadow-highlight">
+
+              <p>Thank you for visiting my website. If you have some ideas, or a project in mind. Feel free to hit me up at <span>drkannobeck@gmail.com</span> </p>
+              <ul class="md:mt-6 flex space-x-4">
+                <li class="m-0 p-0 rounded-md bg-dbbb hover:shadow-2xl hover:shadow-dbbb">
+                  <a aria-label="Dribbble icon" href="https://dribbble.com/bekkr" target="_blank"><svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9608 13.0038C20.1784 14.5322 21.2698 16.1658 22.2191 17.8889C23.9359 17.2475 25.5529 16.4016 27.0406 15.3808C25.5335 13.7614 23.385 12.75 21 12.75C20.2956 12.75 19.6125 12.8381 18.9608 13.0038ZM27.9603 16.5687C26.4038 17.645 24.7133 18.5414 22.9191 19.2278C23.2046 19.8042 23.4745 20.3896 23.7284 20.9836C24.3901 20.886 25.0672 20.8354 25.7561 20.8354C26.9608 20.8354 28.1303 20.9902 29.2453 21.2813C29.2484 21.188 29.25 21.0942 29.25 21C29.25 19.3683 28.777 17.8486 27.9603 16.5687ZM29.0567 22.784C28.0072 22.4918 26.9005 22.3354 25.7561 22.3354C25.265 22.3354 24.7806 22.3642 24.3046 22.4203C24.9424 24.1202 25.4508 25.8834 25.8176 27.6981C27.4357 26.5321 28.6135 24.795 29.0567 22.784ZM24.445 28.4987C24.0722 26.4943 23.5192 24.5532 22.8035 22.6928C19.9486 23.3976 17.487 25.1016 15.8109 27.4141C17.2286 28.5627 19.0334 29.25 21 29.25C22.2309 29.25 23.3973 28.9809 24.445 28.4987ZM14.7262 26.3577C16.5588 23.9121 19.1869 22.0952 22.2272 21.2916C21.9947 20.7614 21.7488 20.2384 21.4899 19.723C19.2431 20.4221 16.8543 20.7988 14.378 20.7988C13.8323 20.7988 13.2907 20.7805 12.7539 20.7445C12.7513 20.8293 12.75 20.9145 12.75 21C12.75 23.0452 13.4934 24.9158 14.7262 26.3577ZM12.9352 19.2531C13.4121 19.2834 13.8933 19.2988 14.378 19.2988C16.6001 19.2988 18.7462 18.9755 20.7722 18.3735C19.8119 16.6639 18.7045 15.0478 17.4671 13.5424C15.1853 14.6253 13.4802 16.7247 12.9352 19.2531ZM17.4063 11.9339C18.5193 11.4923 19.7323 11.25 21 11.25C24.1506 11.25 26.9523 12.7452 28.7335 15.0617C29.9979 16.706 30.75 18.7662 30.75 21C30.75 21.4635 30.7176 21.9198 30.6549 22.3668C30.2164 25.49 28.3001 28.1359 25.6384 29.5779C24.2583 30.3257 22.6776 30.75 21 30.75C18.4059 30.75 16.047 29.7359 14.3008 28.084C12.423 26.3077 11.25 23.7902 11.25 21C11.25 20.61 11.2729 20.2251 11.3176 19.8466C11.7437 16.2337 14.1431 13.2284 17.4063 11.9339Z" fill="white"></path></svg>
+                  </a>
+                </li>
+                <li class="m-0 p-0 rounded-md bg-lkn hover:shadow-2xl hover:shadow-lkn">
+                  <a aria-label="linkedin icon" href="https://linkedin.com/in/kanno-beck" target="_blank"><svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.75 10.875C12.5764 10.875 11.625 11.8264 11.625 13C11.625 14.1736 12.5764 15.125 13.75 15.125C14.9236 15.125 15.875 14.1736 15.875 13C15.875 11.8264 14.9236 10.875 13.75 10.875Z" fill="white"></path>
+                    <path d="M11.75 16.875C11.681 16.875 11.625 16.931 11.625 17V30C11.625 30.069 11.681 30.125 11.75 30.125H15.75C15.819 30.125 15.875 30.069 15.875 30V17C15.875 16.931 15.819 16.875 15.75 16.875H11.75Z" fill="white"></path>
+                    <path d="M18.25 16.875C18.181 16.875 18.125 16.931 18.125 17V30C18.125 30.069 18.181 30.125 18.25 30.125H22.25C22.319 30.125 22.375 30.069 22.375 30V23C22.375 22.5027 22.5725 22.0258 22.9242 21.6742C23.2758 21.3225 23.7527 21.125 24.25 21.125C24.7473 21.125 25.2242 21.3225 25.5758 21.6742C25.9275 22.0258 26.125 22.5027 26.125 23V30C26.125 30.069 26.181 30.125 26.25 30.125H30.25C30.319 30.125 30.375 30.069 30.375 30V21.3802C30.375 18.9535 28.2644 17.055 25.8498 17.2745C25.1052 17.3422 24.369 17.5273 23.6815 17.8219L22.375 18.3819V17C22.375 16.931 22.319 16.875 22.25 16.875H18.25Z" fill="white"></path>
+                    </svg>
+                    </a>
+                </li>
+                <li class="m-0 p-0 rounded-md bg-twttr hover:shadow-2xl hover:shadow-twttr">
+                  <a aria-label="Twitter icon" href="https://twitter.com/designrgodd" target="_blank">
+                    <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M30.8098 15.2272C30.8677 15.1465 30.7821 15.0422 30.6894 15.0781C30.0307 15.3334 29.3423 15.5057 28.64 15.5906C29.4219 15.1235 30.0253 14.4124 30.3599 13.5705C30.394 13.4848 30.3003 13.4082 30.2195 13.4528C29.4928 13.8541 28.7091 14.1431 27.8949 14.3096C27.8608 14.3165 27.8257 14.3049 27.8018 14.2797C27.1908 13.635 26.3866 13.2058 25.5098 13.0575C24.6147 12.906 23.6946 13.056 22.8938 13.4838C22.0931 13.9116 21.457 14.5931 21.0853 15.4214C20.7319 16.209 20.6365 17.0869 20.8108 17.93C20.8243 17.9955 20.7731 18.0572 20.7065 18.0531C19.1224 17.9547 17.5747 17.5334 16.1587 16.8145C14.7463 16.0974 13.4955 15.0998 12.4827 13.8833C12.4377 13.8293 12.3525 13.8363 12.3198 13.8984C12.0046 14.4965 11.8396 15.1631 11.84 15.8406C11.8387 16.515 12.0042 17.1792 12.3218 17.7742C12.6393 18.3691 13.099 18.8763 13.66 19.2506C13.0651 19.2344 12.4818 19.0873 11.9513 18.8207C11.8829 18.7863 11.8009 18.8352 11.8045 18.9117C11.8458 19.8009 12.1723 20.6936 12.7373 21.3786C13.3387 22.1074 14.1733 22.6062 15.1 22.7906C14.7433 22.8992 14.3729 22.9564 14 22.9606C13.7971 22.9582 13.5945 22.9433 13.3936 22.9158C13.319 22.9056 13.2582 22.9764 13.2843 23.0469C13.5607 23.7944 14.049 24.4467 14.6911 24.9228C15.3776 25.4318 16.2056 25.7142 17.06 25.7306C15.6172 26.8659 13.8359 27.4855 12 27.4906C11.8114 27.4912 11.6228 27.4851 11.4347 27.4723C11.3287 27.4651 11.2799 27.6063 11.3713 27.6605C13.1601 28.7221 15.2046 29.2831 17.29 29.2806C18.8297 29.2966 20.3572 29.0056 21.7831 28.4247C23.2091 27.8437 24.5051 26.9845 25.5952 25.8971C26.6854 24.8097 27.548 23.516 28.1326 22.0915C28.7172 20.667 29.0121 19.1403 29 17.6006V17.1208C29 17.0892 29.015 17.0595 29.0402 17.0405C29.7184 16.5283 30.3149 15.9169 30.8098 15.2272Z" fill="white"></path>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="grid max-w-2xl mx-auto mb-6 md:scroll-my-40 md:p-0 md:grid-cols-1fr-5fr">
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+  
+      
+    </section>
+  </div>
+
+  <!-- Footer -->
+ 
+
+
+  <!-- JS Scripts -->
+
+  <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+
+  <script>
+    const body = document.body,
+      scrollWrap = document.getElementsByClassName("smooth-scroll")[0],
+      height = scrollWrap.getBoundingClientRect().height - 0,
+      speed = 0.04;
+
+      var offset = 0;
+
+      body.style.height = Math.floor(height) + "px";
+
+      function smoothScroll() {
+        offset += (window.pageYOffset - offset) * speed;
+
+        var scroll = "translateY(-" + offset + "px) translateZ(0)";
+        scrollWrap.style.transform = scroll;
+
+        callScroll = requestAnimationFrame(smoothScroll);
+    }
+
+    smoothScroll();
+  </script>
 </body>
 </html>

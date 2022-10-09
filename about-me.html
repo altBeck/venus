@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beck Kanno / About Me</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body class="font-archivo antialiased bg-black text-white scrollbar-thin scrollbar-thumb-none">
+
+  <!-- Hero Section -->
+  <nav class="px-2 sm:px-4 py-5 fixed w-full z-20 top-0 left-0 border-gray-600 bg-opacity-30 backdrop-filter backdrop-saturate-150 backdrop-blur-lg">
+    <div class="container flex flex-wrap justify-between items-center mx-auto">
+    <a href="index.html" class="flex items-center">
+      <img src="https://raw.githubusercontent.com/altBeck/temp-img/main/logo.svg" class="mr-3 h-6 sm:h-9" alt="Beck Logo">
+      <span class="self-center sm:text-xl sm:font-semibold whitespace-nowrap text-white">Beck Kanno / User Interface Designer</span>
+    </a>
+   
+    <div class="flex md:order-1">
+        
+      <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex p-2 text-sm text-gray-500 rounded-lg md:hidden dark:text-gray-400 "aria-controls="navbar-sticky" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="#fff" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+      </button>
+    </div>
+    
+    <div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+      <ul class="flex flex-col p-4 mt-4 rounded-lg  border-blue-600 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 bg-sea md:bg-transparent">
+        
+        <li>
+          <a href="#" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-blue-700 md:hover:bg-transparent md:p-0">About</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-blue-700 md:p-0 hover:text-white md:text-gray-400 md:hover:bg-transparent">Playground</a>
+        </li>
+        <li>
+          <button data-tooltip-target="tooltip-bottom" data-tooltip-placement="bottom" type="button" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-blue-700 md:p-0 hover:text-white md:text-gray-400 md:hover:bg-transparent"><a href="mailto:drkannobeck@gmail.com">Contact</a></button>
+          <div id="tooltip-bottom" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-sea rounded-lg shadow-highlight opacity-0 tooltip">
+          drkannobeck@gmail.com
+          <div class="tooltip-arrow" data-popper-arrow></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  
+  <section class="smooth-scroll max-w-5xl mx-auto content-center">
+    <ul class="max-w-xs md:max-w-xl mx-auto mt-40 p-4 grid gap-5 mb-4 md:mb-8 md:p-0 md:grid-cols-1fr-5fr bg-sea bg-opacity-50 rounded-lg shadow-highlight">
+      <li>
+        <img class="md:p-4 rounded-lg md:rounded-3xl gap-x-5" src="https://raw.githubusercontent.com/altBeck/temp-img/main/beck-4k.avif" alt="My Avatar" loading="lazy">
+      </li>
+
+      <li>
+        <p class="font-normal md:p-4 text-justify text-lg pb-5 md:pb-8">I'm a User Interface Designer with a focus on prototyping seamless design systems and crafting simple and beautiful digital user interfaces through code and experimentation. I help growing businesses and studios execute design projects by creating dynamic digital experiences.</p>
+      </li>
+    </ul>
+
+    <div class="max-w-xs md:max-w-xl mx-auto mt-10 p-4 grid gap-5 mb-2 md:p-0 md:grid-cols-1fr-5fr bg-sea bg-opacity-50 rounded-lg shadow-highlight">
+      <h1 class="font-black text-3xl md:p-4">Skills</h1>
+      <p class="font-normal md:px-4 text-lg text-justify">I've designed for mobile and desktop platforms. My user-centered processes and decision making is grounded in qualitative and quantitative research.</p>
+      <p class="font-normal md:px-4 pb-5 md:pb-8 text-lg text-justify">I am adept at HTML, CSS, Javascript, Tailwindcss and React for frontend web development that allows me to work efficiently with product and development teams.</p>
+    </div>
+  </section>
+
+
+  <!-- JS Scripts -->
+
+  <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+
+  <script>
+    const body = document.body,
+      scrollWrap = document.getElementsByClassName("smooth-scroll")[0],
+      height = scrollWrap.getBoundingClientRect().height - 1,
+      speed = 0.08;
+
+      var offset = 0;
+
+      body.style.height = Math.floor(800) + "px";
+
+      function smoothScroll() {
+        offset += (window.pageYOffset - offset) * speed;
+
+        var scroll = "translateY(-" + offset + "px) translateZ(0)";
+        scrollWrap.style.transform = scroll;
+
+        callScroll = requestAnimationFrame(smoothScroll);
+      }
+
+    smoothScroll();
+  </script>
+</body>

@@ -13,14 +13,14 @@
   <!-- Hero Section -->
   <nav class="px-2 sm:px-4 py-5 fixed w-full z-20 top-0 left-0 border-gray-600 bg-opacity-30 backdrop-filter backdrop-saturate-150 backdrop-blur-lg">
     <div class="container flex flex-wrap justify-between items-center mx-auto">
-    <a href="index.html/" class="flex items-center">
+    <a href="index.html" class="flex items-center">
       <img src="https://raw.githubusercontent.com/altBeck/temp-img/main/logo.svg" class="mr-3 h-6 sm:h-9" alt="Beck Logo">
       <span class="self-center sm:text-xl sm:font-semibold whitespace-nowrap text-white">Beck Kanno / User Interface Designer</span>
     </a>
    
     <div class="flex md:order-1">
         
-      <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex p-2 text-sm text-gray-500 rounded-lg md:hidden dark:text-gray-400 border-2 "aria-controls="navbar-sticky" aria-expanded="false">
+      <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex p-2 text-sm text-gray-500 rounded-lg md:hidden dark:text-gray-400 "aria-controls="navbar-sticky" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
         <svg class="w-6 h-6" aria-hidden="true" fill="#fff" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
       </button>
@@ -30,13 +30,18 @@
       <ul class="flex flex-col p-4 mt-4 rounded-lg  border-blue-600 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 bg-sea md:bg-transparent">
         
         <li>
-          <a href="#" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-blue-700 md:p-0 hover:text-white md:text-gray-400 md:hover:bg-transparent">About</a>
+          <a href="about-me.html" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-blue-700 md:p-0 hover:text-white
+          md:text-gray-400 md:hover:bg-transparent">About</a>
         </li>
         <li>
           <a href="#" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-blue-700 md:p-0 hover:text-white md:text-gray-400 md:hover:bg-transparent">Playground</a>
         </li>
         <li>
-          <a href="#" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-blue-700 md:p-0 hover:text-white md:text-gray-400 md:hover:bg-transparent">Contact</a>
+          <button data-tooltip-target="tooltip-bottom" data-tooltip-placement="bottom" type="button" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-blue-700 md:p-0 hover:text-white md:text-gray-400 md:hover:bg-transparent"><a href="mailto:drkannobeck@gmail.com">Contact</a></button>
+          <div id="tooltip-bottom" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-sea rounded-lg shadow-highlight opacity-0 tooltip">
+          drkannobeck@gmail.com
+          <div class="tooltip-arrow" data-popper-arrow></div>
+          </div>
         </li>
       </ul>
     </div>
@@ -55,7 +60,7 @@
   
       <div class="grid place-items-center">
         <p class="md:text-xl -mt-32 md:-mt-16 w-64 md:w-80 text-center align-middle">
-          I’m a <button><a href="https://bradfrost.com/blog/post/frontend-design/" class="p-1 rounded bg-blue-700 hover:hover:bg-gradient-to-t from-blue-900 to-blue-700" target="_blank">frontend-designer</a></button> crafting people-centric visual experiences for startups & businesses.
+          I’m a <button><a href="https://bradfrost.com/blog/post/frontend-design/" class="p-1 underline" target="_blank">frontend-designer</a></button>crafting people-centric visual experiences for startups & businesses.
         </p>
         <ul class="stagger mt-16 flex space-x-4">
           <button class="p-3 bg-sea font-medium hover:bg-gradient-to-t from-gray-950 to-sea rounded-md shadow-highlight" style="opacity: 1; transform: none;"><span class="transition filter hover:drop-shadow-glow">Resume</span></button>
@@ -92,7 +97,7 @@
   
           <div class="grid max-w-2xl gap-5 p-5 pl-8 mx-auto mb-6 md:mb-16 md:p-0 md:grid-cols-1fr-5fr">
             <div class="relative pl-6 border-gray-800 md:pl-16">
-              <p class="text-sm md:text-base text-gray-500">Featured on a project</p>
+              <p class="text-sm md:text-base text-gray-500">Sept, 2022</p>
               <div>
                 <div class="absolute top-0 left-0 w-3 h-3 border-2 border-gray-200 rounded-full md:translate-y-1/2 md:ring-8 ring-sea" style="background:#0f0e12;transform:translate(calc(-50% - 0.5px), var(--tw-translate-y))">
                   <div class="absolute h-140 mt-3 border-l ml-0.75 md:mt-4.5 border border-gray-950"></div>
@@ -113,7 +118,7 @@
   
           <div class="grid max-w-2xl gap-5 p-5 pl-8 mx-auto mb-6 md:mb-16 md:p-0 md:grid-cols-1fr-5fr">
             <div class="relative pl-6 border-gray-800 md:pl-16">
-              <p class="text-sm md:text-base text-gray-500">Featured on a project</p>
+              <p class="text-sm md:text-base text-gray-500">Aug, 2022</p>
               <div>
                 <div class="absolute top-0 left-0 w-3 h-3 border-2 border-gray-200 rounded-full md:translate-y-1/2 md:ring-8 ring-sea" style="background:#0f0e12;transform:translate(calc(-50% - 0.5px), var(--tw-translate-y))">
                   <div class="absolute md:h-124 mt-3 h-97 border-l ml-0.75 md:mt-4.5 border border-gray-950"></div>
@@ -126,7 +131,7 @@
                 
                 <h1 class="text-white text-lg">Hoobank Landing Page</h1>
 
-                <p class="mt-2 !mb-6 text-sm md:text-base">Iterating on this website and some freelance projects. Feel free to contact me if you'd like to build something cool together!</p>
+                <p class="mt-2 !mb-6 text-sm md:text-base">A landing page website built using React and TailwindCSS. I took this project to gain mastery over React React styled components and understand React file and folder structure.</p>
 
                 <div class="space-x-2 flex">
 
@@ -147,12 +152,8 @@
                     <svg class="hover:fill-white" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke-width="5" xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M15.5 2L20.75 2C20.9489 2 21.1397 2.07902 21.2803 2.21967C21.421 2.36032 21.5 2.55109 21.5 2.75V8C21.5 8.41421 21.1642 8.75 20.75 8.75C20.3358 8.75 20 8.41421 20 8V4.56066L11 14C10.7071 14.2929 10.2322 14.2929 9.93934 14C9.64645 13.7071 9.64645 13.2322 9.93934 12.9393L18.9393 3.5L15.5 3.5C15.0858 3.5 14.75 3.16421 14.75 2.75C14.75 2.33579 15.0858 2 15.5 2ZM5 6.5C4.17157 6.5 3.5 7.17157 3.5 8V18.5C3.5 19.3284 4.17157 20 5 20H15.5C16.3284 20 17 19.3284 17 18.5V10.25C17 9.83579 17.3358 9.5 17.75 9.5C18.1642 9.5 18.5 9.83579 18.5 10.25V18.5C18.5 20.1569 17.1569 21.5 15.5 21.5H5C3.34315 21.5 2 20.1569 2 18.5V8C2 6.34315 3.34315 5 5 5H13.25C13.6642 5 14 5.33579 14 5.75C14 6.16421 13.6642 6.5 13.25 6.5H5Z" />
                     </svg>
-                  </a>
-                    
-                </div>
-
-                
-                
+                  </a>                    
+                </div>          
               </div>
             </div>
           </div>
@@ -175,7 +176,7 @@
             </div>
           </div>
   
-          <!-- grid in progress -->
+          <!-- grid 5 -->
           <div class="grid max-w-2xl gap-5 p-5 pl-8 mx-auto mb-6 md:mb-16 md:p-0 md:grid-cols-1fr-5fr">
             <div class="relative pl-6 border-gray-800 md:pl-16">
               <p class="text-sm md:text-base text-gray-500">Featured on a project</p>
@@ -227,6 +228,11 @@
                     <path d="M30.8098 15.2272C30.8677 15.1465 30.7821 15.0422 30.6894 15.0781C30.0307 15.3334 29.3423 15.5057 28.64 15.5906C29.4219 15.1235 30.0253 14.4124 30.3599 13.5705C30.394 13.4848 30.3003 13.4082 30.2195 13.4528C29.4928 13.8541 28.7091 14.1431 27.8949 14.3096C27.8608 14.3165 27.8257 14.3049 27.8018 14.2797C27.1908 13.635 26.3866 13.2058 25.5098 13.0575C24.6147 12.906 23.6946 13.056 22.8938 13.4838C22.0931 13.9116 21.457 14.5931 21.0853 15.4214C20.7319 16.209 20.6365 17.0869 20.8108 17.93C20.8243 17.9955 20.7731 18.0572 20.7065 18.0531C19.1224 17.9547 17.5747 17.5334 16.1587 16.8145C14.7463 16.0974 13.4955 15.0998 12.4827 13.8833C12.4377 13.8293 12.3525 13.8363 12.3198 13.8984C12.0046 14.4965 11.8396 15.1631 11.84 15.8406C11.8387 16.515 12.0042 17.1792 12.3218 17.7742C12.6393 18.3691 13.099 18.8763 13.66 19.2506C13.0651 19.2344 12.4818 19.0873 11.9513 18.8207C11.8829 18.7863 11.8009 18.8352 11.8045 18.9117C11.8458 19.8009 12.1723 20.6936 12.7373 21.3786C13.3387 22.1074 14.1733 22.6062 15.1 22.7906C14.7433 22.8992 14.3729 22.9564 14 22.9606C13.7971 22.9582 13.5945 22.9433 13.3936 22.9158C13.319 22.9056 13.2582 22.9764 13.2843 23.0469C13.5607 23.7944 14.049 24.4467 14.6911 24.9228C15.3776 25.4318 16.2056 25.7142 17.06 25.7306C15.6172 26.8659 13.8359 27.4855 12 27.4906C11.8114 27.4912 11.6228 27.4851 11.4347 27.4723C11.3287 27.4651 11.2799 27.6063 11.3713 27.6605C13.1601 28.7221 15.2046 29.2831 17.29 29.2806C18.8297 29.2966 20.3572 29.0056 21.7831 28.4247C23.2091 27.8437 24.5051 26.9845 25.5952 25.8971C26.6854 24.8097 27.548 23.516 28.1326 22.0915C28.7172 20.667 29.0121 19.1403 29 17.6006V17.1208C29 17.0892 29.015 17.0595 29.0402 17.0405C29.7184 16.5283 30.3149 15.9169 30.8098 15.2272Z" fill="white"></path>
                     </svg>
                   </a>
+                </li>
+                <li class="m-0 p-0 rounded-md bg-black hover:shadow-2xl hover:shadow-white">
+                  <a href="https://github.com/altBeck">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 fill-white content-center m-2"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.463 2 11.97c0 4.404 2.865 8.14 6.839 9.458.5.092.682-.216.682-.48 0-.236-.008-.864-.013-1.695-2.782.602-3.369-1.337-3.369-1.337-.454-1.151-1.11-1.458-1.11-1.458-.908-.618.069-.606.069-.606 1.003.07 1.531 1.027 1.531 1.027.892 1.524 2.341 1.084 2.91.828.092-.643.35-1.083.636-1.332-2.22-.251-4.555-1.107-4.555-4.927 0-1.088.39-1.979 1.029-2.675-.103-.252-.446-1.266.098-2.638 0 0 .84-.268 2.75 1.022A9.607 9.607 0 0 1 12 6.82c.85.004 1.705.114 2.504.336 1.909-1.29 2.747-1.022 2.747-1.022.546 1.372.202 2.386.1 2.638.64.696 1.028 1.587 1.028 2.675 0 3.83-2.339 4.673-4.566 4.92.359.307.678.915.678 1.846 0 1.332-.012 2.407-.012 2.734 0 .267.18.577.688.48 3.97-1.32 6.833-5.054 6.833-9.458C22 6.463 17.522 2 12 2Z"></path></svg>                      
+                  </a>         
                 </li>
               </ul>
 

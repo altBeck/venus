@@ -814,6 +814,14 @@ html {
   max-width: 42rem;
 }
 
+.max-w-sm{
+  max-width: 24rem;
+}
+
+.max-w-6xl{
+  max-width: 72rem;
+}
+
 .-translate-x-1\/2{
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -990,6 +998,12 @@ html {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-3 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .self-center{
@@ -1792,6 +1806,10 @@ html {
     margin-bottom: 1.5rem;
   }
 
+  .md\:mt-40{
+    margin-top: 10rem;
+  }
+
   .md\:flex{
     display: flex;
   }
@@ -1854,6 +1872,18 @@ html {
     margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
   }
 
+  .md\:space-x-6 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .md\:space-x-2 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-x-reverse: 0;
+    margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
   .md\:rounded-3xl{
     border-radius: 1.5rem;
   }
@@ -1881,6 +1911,11 @@ html {
   .md\:px-4{
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .md\:px-5{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 
   .md\:pb-8{

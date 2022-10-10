@@ -33,13 +33,17 @@
           <a href="#" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-blue-700 md:hover:bg-transparent md:p-0">About</a>
         </li>
         <li>
-          <a href="#" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-blue-700 md:p-0 hover:text-white md:text-gray-400 md:hover:bg-transparent">Playground</a>
+          <button data-tooltip-target="tooltip-bottom" data-tooltip-placement="bottom" type="button" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-blue-700 md:p-0 hover:text-white md:text-gray-400 md:hover:bg-transparent"><a href="#">Playground</a></button>
+          <div id="tooltip-bottom" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-sea rounded-lg shadow-highlight opacity-0 tooltip">
+          Coming Soon
+          <div class="tooltip-arrow" data-popper-arrow></div>
+          </div>
         </li>
         <li>
-          <button data-tooltip-target="tooltip-bottom" data-tooltip-placement="bottom" type="button" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-blue-700 md:p-0 hover:text-white md:text-gray-400 md:hover:bg-transparent"><a href="mailto:drkannobeck@gmail.com">Contact</a></button>
-          <div id="tooltip-bottom" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-sea rounded-lg shadow-highlight opacity-0 tooltip">
+          <button data-tooltip-target="tooltip-none" data-tooltip-placement="bottom" type="button" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-blue-700 md:p-0 hover:text-white md:text-gray-400 md:hover:bg-transparent"><a href="mailto:drkannobeck@gmail.com">Contact</a></button>
+          <div id="tooltip-none" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-sea rounded-lg shadow-highlight opacity-0 tooltip">
           drkannobeck@gmail.com
-          <div class="tooltip-arrow" data-popper-arrow></div>
+          <div class="tooltip-none" data-popper-none></div>
           </div>
         </li>
       </ul>

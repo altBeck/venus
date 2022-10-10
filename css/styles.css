@@ -730,6 +730,14 @@ html {
   margin-top: 2rem;
 }
 
+.mb-px{
+  margin-bottom: 1px;
+}
+
+.mt-1{
+  margin-top: 0.25rem;
+}
+
 .block{
   display: block;
 }
@@ -1218,6 +1226,10 @@ html {
 
 .p-6{
   padding: 1.5rem;
+}
+
+.p-32{
+  padding: 8rem;
 }
 
 .px-2{
